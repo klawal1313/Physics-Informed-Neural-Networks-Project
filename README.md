@@ -1,2 +1,9 @@
 # Physics-Informed-Neural-Networks-Project
-Physics Informed Neural Networks (PINNs) Project focuses on solving Partial Differential Equations (PDEs) in shallow water dynamics and wave-current interactions using deep learning models in PyTorch and TensorFlow. It combines physics-based models with AI for accurate coastal hydrodynamic predictions
+Project Overview
+This repository contains several notebooks implementing Physics-Informed Neural Networks (PINNs) for solving Partial Differential Equations (PDEs) related to shallow water dynamics, wave speed, and current speed. The PINNs framework combines physics knowledge with deep learning models to solve complex problems in oceanography and hydrodynamics. These notebooks focus on the application of PINNs in modeling shallow water equations and wave-current interactions using both PyTorch and TensorFlow.
+Notebooks Description
+PINNs_Wave Speed_Current Speed_Pilot Experiment 1_approved.ipynb: This notebook demonstrates a pilot experiment that models wave speed and current speed using a PINN approach. It serves as a preliminary study for understanding the dynamics of wave and current interactions in a coastal environment.
+Pytorch_Shallow Water_PDE_PINN_1.ipynb: This notebook uses PyTorch to model the shallow water equation using a PINN. It incorporates spatial-temporal data to solve PDEs related to shallow water flow.
+Shallow_Water_Equation_Linear_PINN_Pytorch.ipynb: A PyTorch-based implementation for solving the linear shallow water equation using PINNs. The notebook provides step-by-step code to solve this important hydrodynamic PDE.
+Shallow_Water_Equation_Linear_PINN_TensorFlow.ipynb: This notebook offers a TensorFlow implementation of a similar problem—the linear shallow water equation using PINNs. It is suitable for users familiar with TensorFlow but interested in applying PINNs to hydrodynamic problems.
+Spartial_Temporal_derivatives_PINN_PDE_2.ipynb: This notebook focuses on calculating spatial and temporal derivatives using PINNs for solving PDEs related to the shallow water equation. It explores the details of solving hydrodynamic equations with emphasis on the PINN
